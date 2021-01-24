@@ -1,4 +1,4 @@
-d3.json("/samples.json").then((allData) => {
+d3.json("plotly-homework/samples.json").then((allData) => {
 
     var names = allData.names; // Get the subject IDs
     var metadata = allData.metadata; // Get all the metadata
